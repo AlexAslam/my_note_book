@@ -35,5 +35,5 @@ test:
 production:
   <<: *default
   database: my_note_book_production
-  username: my_note_book
-  password: <%= ENV['MY_NOTE_BOOK_DATABASE_PASSWORD'] %>
+  username: alex
+  password: alex
