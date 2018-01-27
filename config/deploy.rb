@@ -3,7 +3,7 @@ set :application, 'my_note_book'
 set :deploy_user, 'alex'
 set :assets_roles, [:app]
 # set :scm, :git
-set :repo_url, 'ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/expedite_hcm_sapphire_core'
+set :repo_url, 'git@github.com:AlexAslam/my_note_book.git'
 
 # setup rvm/rbenv.
 set :rbenv_path, "/home/#{fetch(:deploy_user)}/.rbenv"
